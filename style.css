@@ -1,0 +1,1293 @@
+body {
+    font-family: Poppins, sans-serif;
+   
+}
+html{
+    
+}
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.headertop {
+    background: linear-gradient(45deg, rgb(14, 144, 213), rgb(48, 50, 162));
+    padding: 15px 0px;
+}
+.logo{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999999;
+    background: white;
+}
+
+.logo button {
+    color: rgb(48, 50, 162);
+}
+
+.headertopleft ul li {
+    display: inline-block;
+}
+
+.headertopleft ul li a {
+    color: white;
+    display: inline-block;
+    padding: 0px 30px 0px 0px;
+    font-size: 18px;
+}
+
+.headertopright ul li {
+    display: inline-block;
+}
+
+.headertopright ul li a {
+    color: white;
+    padding: 0px 25px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.headertopright {
+    text-align: right;
+}
+
+.headertopright ul li:nth-child(4) {
+    border-right: 2px solid white;
+}
+
+.headertopleft ul li:nth-child(1) {
+    border-right: 2px solid white;
+}
+
+.logo a img {
+    width: 130px;
+}
+
+.menu ul li {
+    position: relative;
+}
+
+.menu ul li ul {
+    position: absolute;
+    top: 112%;
+    list-style: none;
+    padding: inherit;
+    background: rgb(234, 240, 247);
+    left: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+    transform-origin: center top;
+    transform: scaleY(0);
+    z-index: 1;
+}
+
+.menu ul li ul li a i {
+    margin-left: 63px;
+}
+
+.menu ul li ul li ul {
+    left: 100%;
+    top: 0px;
+}
+
+.menu ul li ul li a {
+    padding: 11px 17px;
+    width: 260px;
+    transition: all 0.8s ease 0s;
+}
+
+.menu ul li a {
+    display: inline-block;
+    color: black;
+    padding: 27px 19px;
+    font-size: 20px;
+    transition: all 0.8s ease 0s;
+}
+
+.menu ul li a i {
+    font-size: 11px;
+}
+
+.form i {
+    font-size: 28px;
+    margin-left: 70px;
+    margin-right: 40px;
+}
+
+.hudssss div {
+    height: 3px;
+    width: 41px;
+    background-color: rgb(13, 110, 253);
+    margin-bottom: 9px;
+    border-radius: 10px;
+    transition: all 0.8s ease 0s;
+}
+
+.hudssss {
+    transform: rotate(180deg);
+    position: relative;
+    top: -10px;
+    width: 51px;
+    cursor: pointer;
+}
+
+.hudssss:hover div {
+    width: 50px !important;
+}
+
+.fstge {
+    width: 34px !important;
+}
+
+
+.fstg11e {
+    width: 28px !important;
+    /* height: 3px !important; */
+}
+
+.menu ul li:hover>a {
+    color: rgb(4, 90, 224);
+}
+
+.menu ul li:hover>ul {
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+.menu ul li ul li:hover>a {
+    background: rgb(4, 90, 224);
+    color: white;
+    word-spacing: 5px;
+}
+
+.headerbottom .navbar {
+    padding: 0px;
+}
+
+
+
+.bgimg1 {
+    background: url("./img/ia_100000062.jpg");
+}
+
+.bgimg2 {
+    background: url("./img/ia_100000063.jpg");
+}
+
+.bgimg3 {
+    background: url("./img/ia_100000068.jpg");
+}
+
+.bgimg {
+    padding: 237px 0px;
+    background-position: center top;
+}
+
+.defoltbutton {
+    color: white;
+    background: linear-gradient(39deg, rgb(42, 174, 255), rgb(29, 41, 134));
+    padding: 14px 56px;
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 5px;
+    transition: all 0.8s ease 0s !important;
+}
+
+.contant1 {
+    color: white;
+    margin-left: 106px;
+}
+
+.contant1 p {
+    font-size: 19px;
+    line-height: 36px;
+    padding-right: 125px;
+}
+
+.contant1 h1 {
+    font-weight: 900;
+    font-size: 53px;
+}
+
+.defoltbutton:hover {
+    box-shadow: rgba(42, 174, 255, 0.68) 5px 4px 10px 0px;
+    color: white;
+    background: linear-gradient(39deg, rgb(29, 41, 134), rgb(42, 174, 255));
+}
+
+.crasoli {
+    background: linear-gradient(45deg, rgb(14, 144, 213), rgb(48, 50, 162));
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+}
+
+.ceasun33 {
+    /* top: 196px; */
+}
+
+.padding {
+    padding: 100px 0px;
+}
+
+.service {
+    background: url("./img/ia_100000064.png") no-repeat rgb(247, 248, 252);
+    margin-top: 204px;
+    padding: 100px 0px;
+}
+
+.contact3 {
+    border-radius: 8px;
+    position: relative;
+    padding-bottom: 1px;
+    margin-bottom: 63px;
+}
+
+.contact3 p {
+    padding: 0px 31px;
+    line-height: 32px;
+    font-size: 16px;
+}
+
+.onluhhhh {
+    overflow: hidden;
+}
+
+.onluhhhh img {
+    transition: all 0.8s ease 0s;
+}
+
+.contact3:hover .onluhhhh img {
+    transform: rotate(8deg) scale(1.3);
+}
+
+.contact3::before {
+    position: absolute;
+    content: "";
+    width: 90%;
+    height: 4px;
+    background: rgb(13, 110, 253);
+    top: 100%;
+    left: 25px;
+    border-radius: 10px;
+    transform: scale(0);
+    transition: all 0.8s ease 0s;
+}
+
+.contact3:hover::before {
+    transform: scale(1);
+}
+
+.hello {
+    border-radius: 21px;
+    position: relative;
+    background: linear-gradient(45deg, rgb(14, 144, 213), rgb(48, 50, 162));
+    display: inline-block;
+    padding: 2px 46px;
+    top: 24px;
+    font-size: 30px;
+}
+
+.hello:hover {
+    padding: 2px 58px;
+}
+
+.hello i {
+    font-size: 22px;
+    color: white;
+}
+
+.contact3 img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.conyenw p {
+    line-height: 39px;
+    font-size: 18px;
+}
+
+.fawdiv {
+    background: linear-gradient(39deg, rgb(42, 174, 255), rgb(29, 41, 134));
+    height: 13px;
+    width: 120px;
+}
+
+.fawdiv hr {
+    height: 4px;
+    color: white;
+    background: white;
+    opacity: 1;
+    top: 5px;
+    position: relative;
+    width: 51px;
+}
+
+.DUBOLIMGA {
+    padding: 18px 64px;
+}
+
+.counting {
+    padding: 30px;
+    background: rgb(237, 240, 249);
+    margin-top: 100px;
+    box-shadow: rgba(237, 240, 249, 0.54) 15px 15px 0px 0px;
+    transition: all 0.8s ease 0s;
+}
+
+.counting:hover {
+    transform: translate(10px, 10px);
+}
+
+.counting b {
+    font-size: 55px;
+}
+
+.counting i {
+    font-size: 65px;
+    color: rgb(12, 89, 219);
+    margin-left: 7px;
+}
+
+.counting h5 {
+    color: rgb(116, 123, 135);
+    margin-top: 20px;
+}
+
+.hudadiv {
+    box-shadow: rgba(237, 240, 249, 0.54) -15px -15px 0px 0px;
+    margin-right: 26px;
+    background: rgb(245, 247, 252);
+}
+
+.service2 {
+    background: url("./img/ia_100000071.png") rgb(247, 248, 252);
+}
+
+.content10 b {
+    font-size: 42px;
+}
+
+.content10 h6 {
+    color: rgb(12, 89, 219);
+    font-weight: 700;
+}
+
+.content10 {
+    border-left: 10px solid rgb(12, 89, 219);
+    padding-left: 25px;
+    margin-bottom: 75px;
+}
+
+.content11 p {
+    color: rgb(88, 88, 95);
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.content66 i {
+    font-size: 85px;
+    color: rgb(12, 89, 219);
+}
+
+.content66 {
+    transition: all 0.8s ease 0s;
+}
+
+.content66 p {
+    line-height: 30px;
+    color: rgb(88, 88, 95);
+    font-size: 15px;
+}
+
+.content66:hover {
+    background: url("./img/ia_100000062.jpg") 0% 0% / cover no-repeat;
+    color: white;
+    transform: translateY(-10px);
+}
+
+.content66:hover p {
+    color: white;
+}
+
+.content66:hover i {
+    color: white;
+}
+
+.team {
+    background: url("./img/ia_100000068.jpg") center top;
+}
+
+.contact122 {
+    padding-bottom: 100px;
+}
+
+.contact122 h3 {
+    position: relative;
+    display: inline-block;
+}
+
+.contact122 h3::before {
+    content: "";
+    position: absolute;
+    top: 16px;
+    left: -48%;
+    height: 3px;
+    width: 80px;
+    background: white;
+}
+
+.contact122 h3::after {
+    content: "";
+    position: absolute;
+    top: 16px;
+    left: 107%;
+    height: 3px;
+    width: 80px;
+    background: white;
+}
+
+.contact122 h1 {
+    padding: 9px 167px;
+    font-weight: 800;
+    font-size: 55px;
+}
+
+.content333 {
+    overflow: hidden;
+}
+
+.hudadivdddssddd {
+    bottom: 118px;
+    
+}
+.Skills{
+    background: url(./img/ia_100000067.png) no-repeat center center;
+    background-size: cover;
+}
+
+.subdis {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.content333 a {
+    color: rgb(81, 81, 81);
+    padding: 10px 13px 27px;
+    display: inline-block;
+    font-size: 22px;
+}
+
+.content333 img {
+    width: 1170px;
+    border-radius: 5px 5px 0px 50px;
+    margin-bottom: 23px;
+    transition: all 0.8s ease 0s;
+}
+
+.content333 h6 {
+    color: rgb(12, 89, 219);
+}
+
+.content333 {
+    background: rgb(246, 246, 246);
+    box-shadow: rgba(0, 0, 0, 0.23) 0px 1px 16px 0px;
+    margin-bottom: 45px;
+}
+
+.content333:hover img {
+    margin-left: 10px;
+}
+
+.content333:hover {
+    background: linear-gradient(74deg, rgba(14, 144, 213, 0.68), rgba(48, 50, 162, 0.91));
+    color: white;
+}
+
+.content333:hover a {
+    color: white;
+}
+
+.content333:hover h6 {
+    color: white;
+}
+
+
+
+.subdiv1 {
+    width: 100%;
+}
+
+.subdiv2 {
+    width: 15%;
+}
+
+.subdiv1 h6 {
+    font-weight: 600;
+    margin: 0px;
+}
+
+.subdiv1 hr {
+    height: 20px;
+    width: 98%;
+    background: linear-gradient(39deg, rgb(29, 41, 134), rgb(42, 174, 255));
+    opacity: 1;
+    border-radius: 10px 3px 3px 10px;
+    margin-top: 10px;
+}
+
+
+
+.subdiv2 h6 {
+    margin-left: 58px;
+}
+
+.subdiv2 hr {
+    height: 20px;
+    width: 100%;
+    background: rgb(235, 234, 240);
+    opacity: 1;
+    border-radius: 3px 10px 10px 3px;
+    margin-top: 10px;
+}
+
+
+
+.onluh6 {
+    position: relative;
+    left: 68px;
+    color: rgb(12, 89, 219);
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+
+.onluh6::before {
+    content: "";
+    position: absolute;
+    top: 13px;
+    left: -66px;
+    width: 57px;
+    height: 3px;
+    background: linear-gradient(78deg, rgb(14, 144, 213), rgb(48, 50, 162));
+}
+
+.content123 p {
+    line-height: 30px;
+}
+
+.subdiv {
+    top: 75%;
+    background: linear-gradient(39deg, rgb(42, 174, 255), rgb(29, 41, 134));
+    border-radius: 8px;
+    color: white;
+    left: 41%;
+    padding: 32px 56px;
+}
+
+.subdiv i {
+    top: 10px;
+    position: absolute;
+    font-size: 101px;
+    opacity: 0.4;
+    color: white;
+}
+
+.subdiv h2 {
+    font-weight: 700;
+}
+
+.hr222 {
+    width: 105% !important;
+}
+
+.hr333 {
+    margin-left: 42px;
+    width: 55% !important;
+}
+
+.hr444 {
+    margin-right: 10px;
+    width: 101% !important;
+}
+
+.hr55 {
+    margin-left: 26px;
+    width: 76% !important;
+}
+
+
+
+.onluopne {
+    margin-left: 57px !important;
+}
+
+.onluopns {
+    margin-left: 59px !important;
+}
+
+.clint {
+    background: url("./img/ia_100000068.jpg") center top;
+    margin-top: 200px;
+}
+
+.oimgdivs {
+    position: relative;
+}
+
+.oimgdivs img {
+    margin-bottom: 100px;
+}
+
+.oimgdivs img i {
+    top: 50%;
+}
+
+.content55 {
+    bottom: 96px;
+    padding: 48px;
+    width: 603px;
+    right: 226px;
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 0px 20px 0px;
+    position: relative;
+}
+.content55 ::before{
+    position: absolute;
+    content: "";
+    width: 11%;
+    height: 11%;
+    top: 0;
+    left: 0;
+    border-top: 12px solid #4882e4;
+    border-left: 12px solid #6365b9;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+}
+.content55 ::after{
+    position: absolute;
+    content: "";
+    width: 11%;
+    height: 11%;
+    top: 0;
+    right: 0;
+    border-top: 12px solid #4882e4;
+    border-right: 12px solid #6365b9;
+    border-left: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+}
+
+.content55 h2 {
+    font-weight: 600;
+}
+
+.content55 p {
+    font-size: 19px;
+    padding: 19px 0px;
+}
+
+.content55 form input {
+    padding: 17px 20px;
+    margin-top: 22px;
+}
+
+.content55 form select {
+    padding: 17px 20px;
+    margin-top: 22px;
+}
+
+.content55 form button {
+    background: rgb(12, 89, 219);
+    padding: 13px 168px;
+    margin-top: 22px;
+    font-weight: 500;
+    color: white;
+}
+
+.content55 form button:hover {
+    background: rgb(23, 48, 94);
+    color: white;
+}
+
+
+
+.hudsakkk i {
+    color: white;
+    font-size: 67px;
+    position: relative;
+    left: 1px;
+    top: -5px;
+    cursor: pointer;
+}
+
+.hudsakkk {
+    background: rgb(12, 89, 219);
+    height: 68px;
+    width: 67px;
+    top: 240px;
+    border-radius: 50%;
+    left: 338px;
+    animation: 1.6s ease-in-out 0s infinite normal none running tohid;
+}
+
+.hudsakkk::before {
+    content: "";
+    position: absolute;
+    top: -49px;
+    left: -49px;
+    background: rgb(12, 89, 219);
+    height: 250%;
+    width: 250%;
+    animation: 1.5s cubic-bezier(0.21, 0.22, 0.78, 0.77) 0s infinite normal none running example;
+    border-radius: 50%;
+}
+
+@keyframes example {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    25% {
+        transform: scale(0.3);
+        opacity: 0.8;
+    }
+
+    50% {
+        transform: scale(0.5);
+        opacity: 0.6;
+    }
+
+    75% {
+        transform: scale(0.7);
+        opacity: 0.3;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+.form-control:focus {
+    color: rgb(33, 37, 41);
+    background-color: rgb(255, 255, 255);
+    border-color: inherit;
+    outline: 0px;
+    box-shadow: none;
+}
+
+.content33 {
+    margin-left: -18px;
+    position: relative;
+    left: 45px;
+}
+
+.hellwe23o img {
+    width: 225px;
+    margin-top: 22px;
+}
+
+.subdis {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    background: linear-gradient(0deg, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    transition: all 0.8s ease 0s;
+}
+
+.subdis a {
+    color: white;
+    background: linear-gradient(39deg, rgb(42, 174, 255), rgb(29, 41, 134));
+    display: inline-block;
+    padding: 14px 15px;
+    font-size: 40px;
+    line-height: 0px;
+    margin-left: 41px;
+    transition: all 0.8s ease 0s;
+}
+
+
+.subdis b h6 {
+    font-size: 19px;
+}
+
+.content33 {
+    overflow: hidden;
+}
+
+.content33:hover img {
+    transform: rotate(8deg) scale(1.2);
+}
+
+.content33:hover .subdis {
+    visibility: visible;
+    opacity: 1;
+}
+
+.content33:hover .subdis .hudaggg a {
+    margin-left: 0px;
+}
+
+.content33 img {
+    transition: all 0.8s ease 0s;
+}
+
+.tojig55 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.tojig55 a {
+    padding: 16px 48px;
+}
+
+.onlyhy77 {
+    padding: 0px 65px 0px 0px;
+}
+
+.news {
+    background: rgb(247, 248, 252);
+}
+
+.subdivs {
+    background: rgb(247, 248, 252);
+    padding: 16px 22px 7px;
+    margin: 0px 19px;
+    justify-content: space-around;
+}
+
+.subdivs h6 {
+    color: rgba(107, 107, 107, 0.867);
+}
+
+.subdivs h6 i {
+    color: rgb(12, 89, 219);
+    margin-right: 7px;
+}
+
+.content12 {
+    padding-bottom: 33px;
+}
+
+
+.onluggg {
+    width: 100%;
+}
+
+.hudaxx::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 93%;
+    background: rgba(104, 121, 146, 0.67);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.hudaxx:hover::before {
+    visibility: visible;
+    opacity: 1;
+}
+
+.hudaxx:hover b {
+    left: 40px;
+    z-index: 999;
+}
+
+.hudaxx b {
+    position: relative;
+    left: 0px;
+    bottom: 29px;
+    background: rgb(12, 89, 219);
+    color: white;
+    padding: 6px 20px;
+    font-weight: normal;
+    transition: all 0.8s ease 0s;
+    z-index: 3;
+}
+
+.content12 h4 {
+    padding-bottom: 25px !important;
+}
+
+.testmonial {
+    
+}
+
+
+.content11 h6 {
+    color: rgb(12, 89, 219);
+    font-weight: 600;
+}
+
+.content11 hr {
+    width: 60px;
+    height: 4px;
+    opacity: 1;
+    background: linear-gradient(39deg, rgb(42, 174, 255), rgb(29, 41, 134));
+}
+
+.content11 h1 {
+    padding: 0px 300px;
+}
+
+.aladsa {
+    top: 25px;
+    left: 81%;
+    font-size: 60px !important;
+}
+
+.subdivss {
+    background: rgb(248, 248, 250);
+    border-radius: 15px;
+}
+
+.subdivss i {
+    color: rgb(12 89 219 / 90%);
+    font-size: 22px;
+    margin: 0px 5px;
+}
+
+.subdivss h4 {
+    margin-top: 27px;
+}
+
+.subdivss p {
+    line-height: 32px;
+}
+
+.subdivss h6 {
+    color: rgb(136, 135, 135);
+}
+
+.footer {
+    background: url("./img/ia_100000000069.png") center center no-repeat rgb(34, 41, 53);
+    background-blend-mode: overlay;
+
+}
+
+
+
+.content1155 p {
+    color: rgb(147, 149, 161);
+    font-size: 19px;
+    margin: 0px;
+    padding: 21px 0px !important;
+}
+
+.content1155 h6 {
+    margin-top: 14px;
+    font-size: 20px;
+}
+
+.content1155 h6 a {
+    color: rgb(147, 149, 161);
+}
+
+.content1155 h6 a i {
+    margin-right: 11px;
+}
+
+.content1155 h5 {
+    display: inline-block;
+    margin-top: 37px;
+}
+
+.content1155 h5 a {
+    background: rgb(48, 55, 67);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    line-height: 54px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    margin-right: 13px;
+    transition: .8s;
+}
+
+.hudaggg {
+    margin-top: 190px;
+    color: white;
+    margin-left: 6px;
+}
+
+
+
+.hudaggg b {
+    font-size: 25px;
+    display: inline-block;
+    width: 136px;
+    margin-left: 20px;
+}
+
+
+
+.content22 hr {
+    opacity: 1;
+    height: 5px;
+    width: 74px;
+    background: linear-gradient(259deg, rgb(29, 41, 134), rgb(42, 174, 255));
+    margin: 21px 0px;
+}
+
+.qwermmm {
+    background: linear-gradient(259deg, rgb(29, 41, 134), rgb(42, 174, 255));
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    line-height: 56px;
+    right: 109px;
+    position: relative;
+}
+
+.hudkadnks {
+    left: 88px;
+}
+
+
+
+.content22 h6 a {
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(147, 149, 161);
+}
+
+.content22 h6 a i {
+    margin-right: 4px;
+    font-size: 13px;
+}
+
+
+
+.content222333 hr {
+    opacity: 1;
+    height: 5px;
+    width: 84px;
+    background: linear-gradient(259deg, rgb(29, 41, 134), rgb(42, 174, 255));
+    margin: 21px 0px;
+}
+
+.content222333 p {
+    color: rgb(147, 149, 161);
+    padding: 13px 0px;
+    line-height: 36px;
+}
+
+.content222333 input {
+    padding: 18px 20px;
+}
+
+.content222333 a {
+    margin-top: 40px;
+    padding: 15px 45px;
+}
+
+.hudafutter {
+    background: rgb(48, 55, 67);
+    color: rgb(147, 149, 161);
+    padding: 20px 0px;
+}
+
+.lastducsd h5 a {
+    color: rgb(12, 89, 219);
+    font-weight: normal;
+}
+.content123  h1 {
+    font-size: 49px;
+}
+
+.footer a {
+    transition: .8s;
+}
+
+.footer a:hover {
+    color: #2e39a6;
+
+}
+
+.content1155 h5 a:hover {
+    color: white;
+    background: linear-gradient(259deg, rgb(29, 41, 134), rgb(42, 174, 255));
+}
+.content1155 img {
+    width: 200px;
+}
+.DUBOLIMGA:hover{
+    color: white !important;
+}
+
+@media (max-width: 1199px) {
+    .menu ul li a {
+        padding: 45px 8px;
+    }
+
+    .logo a img {
+        width: 150px;
+    }
+
+    .form i {
+        margin-left: 48px;
+    }
+
+    .headertopleft ul li a {
+        padding: 0px 10px 0px 0px;
+    }
+
+    .crasoli {
+        margin-right: 41px;
+    }
+
+    .contant1 {
+        margin-left: 0px;
+    }
+
+    .contant1 h1 {
+        font-size: 34px;
+    }
+
+    .contant1 p {
+        font-size: 21px;
+        line-height: 38px;
+        padding-right: 0px;
+    }
+
+    .hrtssdd {
+        margin-left: 25%;
+    }
+
+    .bgimg {
+        padding: 241px 321px 190px 114px;
+    }
+
+    .imgdivs {
+        text-align: center;
+    }
+
+    .contact122 h1 {
+        padding: 14px 22px;
+    }
+
+    
+
+    .container33 {
+        text-align: center;
+    }
+
+    .oimgdivs {
+        text-align: center;
+    }
+
+    .content55 {
+        margin: auto;
+        right: 0px;
+        bottom: 35px;
+        width: 100%;
+    }
+
+    .lkjh55 {
+        margin-left: 25%;
+    }
+
+    .content11 h1 {
+        padding: 0px 196px;
+    }
+
+    .content12 {
+        margin-bottom: 60px;
+    }
+
+    .content33 {
+        left: 0px;
+    }
+    .content55 form button {
+        
+padding: 13px 125px;
+        
+width: 100%;
+    }
+}
+
+@media (max-width:991px) {
+    .form{
+        display: none !important;
+    }
+    .headertopright {
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .headertop {
+        text-align: center;
+    }
+
+    .menu ul li a {
+        padding: 18px 13px;
+    }
+
+    .hrtssdd {
+        margin-left: 0%;
+    }
+
+    .counting {
+        text-align: center;
+    }
+    .logo{
+        position: inherit;
+    }
+    body{
+        overflow-x: hidden  !important;
+    }
+    html{
+        overflow-x: hidden  !important;
+    }
+
+
+    .content33 {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .tojig55 {
+        justify-content: flex-start;
+        margin-bottom: 45px;
+    }
+
+    .lkjh55 {
+        margin-left: 0%;
+    }
+
+    .content11 h1 {
+        padding: 0px 118px;
+    }
+
+    .bgimg {
+        padding: 120px 47px;
+    }
+    
+    .ceasun33 {
+        top: 0px;
+    }
+    .service {
+        
+        margin-top: 0px;
+       
+    }
+    .menu ul li ul {
+        
+        left: 163px;
+       
+    }
+   
+    
+}
